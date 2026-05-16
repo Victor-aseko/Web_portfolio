@@ -33,13 +33,13 @@ function Counter({ target, duration }: { target: number; duration: number }) {
 export default function Stats() {
   const stats = [
     { target: 12, label: "Enterprise Projects" },
-    { target: 99, label: "Successful Deployments" },
+    { target: 80, label: "Successful Deployments" },
     { target: 24, label: "Ongoing Support" },
     { target: 50, label: "Global Clients" },
   ];
 
   return (
-    <section className="py-20 bg-white dark:bg-slate-950 border-t border-slate-100 dark:border-slate-800">
+    <section className="pt-10 pb-20 bg-white dark:bg-slate-950 border-t border-slate-100 dark:border-slate-800">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-slate-100 dark:divide-slate-800">
           {stats.map((stat, index) => (

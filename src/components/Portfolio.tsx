@@ -13,7 +13,7 @@ export default function Portfolio() {
   ];
 
   return (
-    <section id="portfolio" className="pt-12 pb-24 md:pt-16 md:pb-24 bg-slate-50 dark:bg-slate-900/50">
+    <section id="portfolio" className="pt-8 pb-24 md:pt-10 md:pb-24 bg-slate-50 dark:bg-slate-900/50">
       <div className="container mx-auto px-6 max-w-6xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

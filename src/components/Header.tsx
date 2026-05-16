@@ -59,16 +59,16 @@ export default function Header() {
           : "bg-slate-900/40 backdrop-blur-sm py-5"
       }`}
     >
-      <div className="mx-auto px-6">
+      <div className="w-full px-2 sm:px-6">
         <div className="flex justify-between items-center">
           <Link href="#home" className="flex items-center group">
-            <div className="relative w-40 h-10 md:w-48 md:h-12">
+            <div className="relative w-40 h-10 md:w-48 md:h-12 -ml-2 sm:-ml-4">
               <Image 
                 src="/Assets/logo.jpg" 
                 alt="Soft Serve Solutions Logo" 
                 fill 
                 sizes="(max-width: 768px) 160px, 192px"
-                className="object-contain"
+                className="object-contain object-left"
                 priority
               />
             </div>

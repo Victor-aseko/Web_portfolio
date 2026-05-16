@@ -52,7 +52,9 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="bg-white dark:bg-slate-800 p-10 rounded-2xl shadow-xl shadow-slate-200/50 dark:shadow-none hover:-translate-y-2 transition-transform duration-300 border border-slate-100 dark:border-slate-700 flex flex-col items-center"
+              whileHover={{ scale: 1.05, y: -8 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-white dark:bg-slate-800 p-10 rounded-2xl shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-100 dark:border-slate-700 flex flex-col items-center"
             >
               <div className="bg-primary-50 dark:bg-slate-700 p-4 rounded-2xl mb-6">
                 {service.icon}

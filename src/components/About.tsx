@@ -42,10 +42,12 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="w-full md:w-7/12"
           >
-            <div className="inline-block px-4 py-1.5 bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 font-medium rounded-full mb-4 text-sm tracking-wide">
-              My Biography
+            <div className="text-center md:text-left w-full">
+              <div className="inline-block px-4 py-1.5 bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 font-medium rounded-full mb-4 text-sm tracking-wide">
+                My Biography
+              </div>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6 text-center md:text-left">
               Software Development & Architecture
             </h2>
             <div className="text-slate-600 dark:text-slate-300 text-lg mb-8 leading-relaxed space-y-6">

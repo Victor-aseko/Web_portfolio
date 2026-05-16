@@ -13,7 +13,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="pt-8 pb-24 md:pt-10 md:pb-24 bg-white dark:bg-slate-950">
+    <section id="skills" className="pt-8 pb-12 md:pt-10 md:pb-12 bg-white dark:bg-slate-950">
       <div className="container mx-auto px-6 max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

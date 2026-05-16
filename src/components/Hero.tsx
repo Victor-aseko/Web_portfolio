@@ -83,10 +83,11 @@ export default function Hero() {
               <span className="inline-block w-1 h-8 bg-primary-400 ml-1 cursor-blink"></span>
             </h3>
             <p className="text-slate-300 text-lg mb-8 max-w-xl mx-auto md:mx-0">
-             I’m a Software Engineer with half a decade of experience creating scalable and user-centered digital products across core banking and e-commerce platforms. I enjoy building reliable systems and intuitive experiences that solve real-world problems.
+              As a seasoned Software Developer, I build scalable digital systems across core banking and e-commerce platforms. I focus on turning complex business requirements into simple, reliable, and user-friendly solutions.
+
               </p>
               <p className="text-slate-300 text-lg mb-8 max-w-xl mx-auto md:mx-0">
-                I strive to design experiences that are not only functional, but also intuitive, engaging, and impactful. </p>
+                I enjoy designing systems that are performant, maintainable, and impactful in real production environments. </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <Link

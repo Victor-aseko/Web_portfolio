@@ -53,14 +53,13 @@ export default function About() {
             <div className="text-slate-600 dark:text-slate-300 text-lg mb-8 leading-relaxed space-y-6">
               <div className="space-y-4">
                 <p>
-                  I am Victor Aseko, a Software Developer specializing in building highly robust, secure, and scalable Core Banking Systems. My journey began with frontend technologies, but quickly evolved into a deep passion for backend architecture and systems programming. 
+                  I'm a seasoned Software Engineer specializing in building highly robust, secure, and scalable Core Banking Systems. My journey began with frontend technologies, but quickly evolved into a deep passion for backend architecture and systems programming. 
                 </p>
                 <p>
                   Beyond enterprise systems, I consult on diverse technical and non-technical projects, collaborating with teams globally to deliver comprehensive software solutions that drive operational excellence.
                 </p>
                 <p>Most of my work involves designing reliable systems, optimizing performance, and occasionally staring at logs long enough for the problem to confess on its own.                </p>
               </div>
-
 
 
 
@@ -81,7 +80,7 @@ export default function About() {
               </div>
 
               <div>
-                <strong>🚀 Technical Stack:</strong>
+                <strong>Technical Stack:</strong>
                 <ul className="list-disc list-inside mt-2 space-y-1 text-base">
                   <li><strong>JavaScript Ecosystem:</strong> React.js, Next.js, Node.js, Express.js</li>
                   <li><strong>Enterprise Development:</strong> .NET Core, C#, ASP.NET MVC</li>
